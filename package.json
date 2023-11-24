@@ -1,0 +1,26 @@
+{
+  "name": "@htmx-ts-starter/root",
+  "module": "src/index.tsx",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typed-html": "^3.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --hot run src/index.tsx"
+  },
+  "bin": {
+    "my-cli": "dist/index.js"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.7.3",
+    "@elysiajs/static": "^0.7.1",
+    "daisyui": "^4.4.2",
+    "elysia": "^0.7.28",
+    "elysia-htmx": "1.0.7",
+    "elysia-tailwind": "1.0.7"
+  }
+}
